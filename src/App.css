@@ -9,6 +9,7 @@ body{
     margin-top:0;
     display: grid;
     grid-template-columns: auto auto;
+    
 }
 .input{
     height: 600px;
@@ -26,11 +27,12 @@ body{
 }
 .userDetails{
     width:700px;
-    height: auto;
+    height: 99vh;
     background-color: #EDC7B7;
     border-style: solid;
     border-color: #EEE2DC;
     color: #123C69;
+
 }
 .userDetails h1{
     margin-top: 0;
@@ -38,9 +40,9 @@ body{
     font-size: 4.5rem;
 }
 .display{
-    width: 83vw;
+    width: 60vw;
     height:100vh;
-    background-color: #BAB2B5;
+    background-color: #5CDB95;
     color: #AC3B61;
 }
 
@@ -72,7 +74,27 @@ body{
     border-color: white;
     border-style: none;
     margin: 0 auto;
+}
 
-    
- 
+.dispContainer{
+    max-height: 90vh;
+    width: 40vw;
+    height: auto;
+    background-color: #05386B;
+    margin: 30px auto 0 auto;
+    color: #EDF5E1;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.con{
+    padding: 1px 20px 20px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.divide{
+    width: 37vw;
+    background-color: #8EE4AF;
+    height:2px;
 }
